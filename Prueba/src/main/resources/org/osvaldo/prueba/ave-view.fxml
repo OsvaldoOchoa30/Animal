@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.osvaldo.prueba.Controllers.AveControllers">
+   <children>
+      <AnchorPane layoutY="-8.0" prefHeight="411.0" prefWidth="603.0" style="-fx-background-color: B4B4B4;">
+         <children>
+            <Label layoutX="44.0" layoutY="91.0" prefHeight="30.0" prefWidth="198.0" text="Nombre del Animal:">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label layoutX="39.0" layoutY="171.0" prefHeight="30.0" prefWidth="166.0" text="Nombre Cientifico:">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label layoutX="423.0" layoutY="91.0" prefHeight="30.0" prefWidth="123.0" text="Descripcion:">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label layoutX="39.0" layoutY="262.0" prefHeight="30.0" prefWidth="123.0" text="Pueden volar?">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <TextField fx:id="NameAveText" layoutX="39.0" layoutY="121.0" prefHeight="26.0" prefWidth="198.0" style="-fx-background-color: c1d6f7;" />
+            <TextField fx:id="DescripcionAveText" layoutX="357.0" layoutY="134.0" prefHeight="103.0" prefWidth="231.0" style="-fx-background-color: c1d6f7;" />
+            <TextField fx:id="NameCAveText" layoutX="39.0" layoutY="201.0" prefHeight="26.0" prefWidth="198.0" style="-fx-background-color: c1d6f7;" />
+            <TextField fx:id="PreguntaAverText" layoutX="39.0" layoutY="292.0" prefHeight="26.0" prefWidth="108.0" style="-fx-background-color: c1d6f7;" />
+            <Button fx:id="AgregarAveButtom" layoutX="18.0" layoutY="345.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedAgregarAveButtom" style="-fx-background-color: DC9B9B;" text="Agregar Animal">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#71b977" height="73.0" layoutX="-6.0" layoutY="2.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="620.0" />
+            <Label layoutX="221.0" layoutY="19.0" prefHeight="38.0" prefWidth="166.0" text="Crear Ave" textFill="WHITE">
+               <font>
+                  <Font name="Rockwell Bold" size="30.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="187.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Img/png-transparent-bird-drawing-vintage-animals-songbird-fauna.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="143.0" fitWidth="177.0" layoutX="394.0" layoutY="254.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Img/png-transparent-bird-drawing-vintage-animals-songbird-fauna-removebg-preview.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
